@@ -21,11 +21,22 @@ This project explores the relationship between the Fear & Greed Index and tradin
 
 ## Setup
 
-```bash
-pip install -r requirements.txt
-cd notebooks
-python analysis.py
-```
+1. **Add data files** to the `data/` folder:
+   - `fear_greed_index.csv` - Bitcoin Fear/Greed Index
+   - `historical_data.csv` - Hyperliquid trading data
+   
+   *(Data files excluded from repo due to size - use the provided dataset links)*
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the analysis:**
+   ```bash
+   cd notebooks
+   python analysis.py
+   ```
 
 The script generates charts in `outputs/` and prints insights to console.
 
